@@ -1,0 +1,23 @@
+{
+  "name": "co-nexmo",
+  "version": "0.0.1",
+  "description": "co wrapper for nexmo",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swinarta/co-nexmo.git"
+  },
+  "keywords": [
+    "co",
+    "nexmo"
+  ],
+  "author": "swinarta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swinarta/co-nexmo/issues"
+  },
+  "homepage": "https://github.com/swinarta/co-nexmo",
+  "dependencies": {
+    "co-request": "^1.0.0"
+  }
+}
