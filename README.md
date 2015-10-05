@@ -1,6 +1,12 @@
 # co-nexmo
 co wrapper for nexmo
 
+## Installation
+
+```
+$ npm install co-nexmo
+```
+
 ## Example
 
 ```js
