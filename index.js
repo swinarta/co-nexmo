@@ -36,7 +36,7 @@ function Nexmo(opts) {
         return JSON.parse(result.body);
     };
 
-    this.sendShortCodeSms = function *(mobileNumber, pin){
+    this.sendTextShortCode = function *(mobileNumber, pin){
         var options = {
             url: NEXMO_URL + '/sc/us/2fa/json',
             qs: {
@@ -50,7 +50,7 @@ function Nexmo(opts) {
         yield request.get(options);
     };
 
-    this.sendSms = function *(fromNumber, toMobileNumber, text){
+    this.sendTextMessage = function *(fromNumber, toMobileNumber, text){
         var options = {
             url: NEXMO_URL + '/sms/json',
             qs: {
