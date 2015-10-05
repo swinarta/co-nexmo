@@ -1,6 +1,6 @@
 {
   "name": "co-nexmo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "co wrapper for nexmo",
   "main": "index.js",
   "repository": {
