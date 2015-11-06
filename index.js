@@ -46,8 +46,8 @@ function Nexmo(opts) {
                 pin: pin
             }
         };
-
-        yield request.get(options);
+        var result = yield request.get(options);
+        return JSON.parse(result.body);
     };
 
     this.sendTextMessage = function *(fromNumber, toMobileNumber, text){
@@ -61,7 +61,7 @@ function Nexmo(opts) {
                 text: text
             }
         };
-        yield request.get(options);
+        var result = yield request.get(options);
+        return JSON.parse(result.body);
     };
-
 }
